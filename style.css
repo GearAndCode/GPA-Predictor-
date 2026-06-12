@@ -1,0 +1,85 @@
+.mainpage{
+    background-color: rgb(11, 39, 64);
+    color: white;
+    display: flex;
+    flex-direction: column; /* ADD THIS */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+button{
+    padding: 12x, 24x;
+    cursor: pointer;
+    border-radius: 8x;
+font-size: 16px;
+}
+h1{
+    font-size: 60 px;
+}
+.box{
+    text-align: center;
+width: 500px;
+padding: 30px;
+margin: 15px;
+border: 3px solid white;
+border-radius: 15px;
+}
+body{
+       background-color: rgb(11, 39, 64);
+    color: white;
+    display: flex;
+justify-content: center;
+
+align-items: center;
+
+}
+label{
+    width: 120px;
+    text-align: right;
+    font-size: 24px;
+margin-right: 10px;
+display: inline-block;
+}
+.GPAbox{
+   text-align: center;
+width: 1000px;
+padding: 30px;
+margin: 30px;
+height: 800px;
+border: 3px solid white;
+border-radius: 15px;   
+}
+.gradebox{
+     text-align: center;
+width: 1000px;
+padding: 30px;
+margin: 30px;
+height: 500px;
+border: 3px solid white;
+border-radius: 15px;
+}
+#result{
+    font-size: 29px;
+}
+
+#CalculateGPA{
+    margin-top: 25px;
+    padding: 10px 20px;
+}
+
+#Gresult{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.GPAbox label{
+    width: 120px;
+    display: inline;
+    font-size: 15px;
+}
+.credit{
+    text-align: center;
+    margin-top: 20px;
+    color: lightgray;
+    font-size: 14px;
+}
